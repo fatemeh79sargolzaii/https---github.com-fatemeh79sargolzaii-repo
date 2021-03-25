@@ -1,0 +1,64 @@
+.g1{
+    display:none;
+    transition: display 4s;
+    
+}
+.h1:hover .g1{
+ 
+   display: inline;
+   transition: display 4s;
+}
+.h1{
+   width: 36px;
+   background-color: rgb(168, 203, 233);
+   border-color: rgb(198, 210, 241);
+ 
+    transition: width 0.5s ;
+}
+.h1:hover{
+ width: 75px;
+
+ 
+}
+
+span{
+    color:rgb(66, 94, 187);
+}
+small{
+    direction: rtl;
+}
+
+ .link {
+
+  
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  
+    background-color: tomato;
+    border: none;
+  
+}
+.star{
+    
+    color: rgb(197, 197, 63);
+    margin-top: 5%;
+   
+}
+.footer-text{
+    direction: rtl;
+   width: 55%;
+}
+.footer-icon{
+    margin: 17px;
+    color: white;
+}
+footer{
+    background-color: rgb(125, 129, 129);
+    color:white;
+   
+    
+}
+p,small,h3{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
